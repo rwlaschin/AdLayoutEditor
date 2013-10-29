@@ -1,0 +1,84 @@
+
+img.video-placeholder {
+	display: inline-block;
+	position: relative;
+	top:0px;
+	left:0px;
+	max-width: 800px;
+	max-height: 650px;
+	width:400px;
+	height:300px;
+}
+
+img.companion-placeholder {
+	display: inline-block;
+	position: relative;
+	top:25px;
+	left:0px;
+	max-width: 800px;
+	max-height: 650px;
+	width:300px;
+	height:250px;
+}
+
+div#ad-window {
+	background-image: url(../images/Background-915x618.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+img#close-button-img {
+	float: right;
+	background-image: url(../images/close-button001.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+}
+
+img#reward-button-img {
+	float: right;
+	background-image: url(../images/claim-button001.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	width: 75px;
+	height: 25px;
+}
+
+img#rockyou-logo-img {
+	float: left;
+	background-image: url(../images/rylogo001.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	width: 75px;
+	height: 25px;
+}
+
+div#top-frame,div#bottom-frame {
+	min-height: 30px;
+	max-height: 50px;
+}
+
+div#middle-frame {
+	width: 95%;
+}
+
+.placeholder {
+	width: 44%;
+	display: inline-block;
+}
+
+span.ad-text {
+	color: #ffffff;
+}

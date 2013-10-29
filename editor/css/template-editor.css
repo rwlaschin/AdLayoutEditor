@@ -1,0 +1,45 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+div.left-panel, div.right-panel {
+	float: left;
+}
+
+div.left-panel {
+	width:325px;
+	min-height:150px;
+}
+
+div.right-panel {
+	width: 75%;
+	height: 400px;
+}
+
+div.editor-popup-panel {
+	background-color:rgba(100,100,100,0.5);
+	border: 1px solid black;
+	display: block;
+}
+
+div.logging-window {
+	background-color:rgba(100,100,100,0.5);
+	border: 1px solid black;
+}
+
+div#ad-frame {
+	display: inline-block;
+	background-color:rgba(100,100,100,0.5);
+	border: 1px solid gray;
+	width:1024px;
+	height: 1024px;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+#ad-window :hover {
+	background-color:rgba(0,0,100,0.5);
+	border: 1px solid blue;
+}
